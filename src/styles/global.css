@@ -1,0 +1,12 @@
+.max-width{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pointer{
+    cursor: pointer;
+}
