@@ -1,13 +1,16 @@
 import React from 'react'
 import "../styles/filter.css"
+import FilterItem from './FilterItem';
 
-const Filters = (filterList) => {
+const Filters = ({filterList}) => {
   return (
-  <div>
-    {filterList && filterList.map((filter)=>{
-        return <div>{filter.title}</div>
-   })}
+    <div className="filters">
+    {filterList &&
+      filterList.map((filter) => {
+        return <FilterItem filter={filter} key={filter.id} />;
+      })}
   </div>
+
   )
 }
 

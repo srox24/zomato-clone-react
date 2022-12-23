@@ -22,9 +22,11 @@ const getScreen = (tab) => {
   switch (tab) {
     case "Delivery":
       return <Delivery/>;
+
     case "Dining Out":
       return <DiningOut/>;
-    case "NightLife":
+
+    case "Nightlife":
       return <NightLife/>
     default:
       return <Delivery/>

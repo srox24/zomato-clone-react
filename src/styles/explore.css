@@ -1,0 +1,8 @@
+.explore{
+    margin-top: 16px;
+}
+.explore-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

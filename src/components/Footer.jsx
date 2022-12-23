@@ -1,8 +1,9 @@
 import React from 'react'
+import "../styles/footer.css"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'>Zomata Clone Created by Subashish </div>
   )
 }
 
